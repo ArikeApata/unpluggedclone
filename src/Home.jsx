@@ -1,16 +1,16 @@
 const Home = () => {
   return (
     <section id="intro">
-      <div class="container-fluid-lg bg-dark ">
-        <div class="row align-items-center">
-          <div class="col-md-4 text-center d-none d-md-block">
-            <img class="img-fluid" src="/images/home-Image.jpg" alt="" />
+      <div class="container-fluid-lg bg-dark">
+        <div class="row  orpcy">
+          <div class="col-sm-4 text-center ">
+            <img class="img-fluid " src="/images/home-Image.jpg" alt="" />
           </div>
           {/* <div className="container-fluid justify-content text-center"> */}
-          <div class="col-md-8 text-light text-center text-md-start">
+          <div class="col-sm-8 text-light text-center text-md-start d-flex flex-column align-items-center">
             <div className="login-forms mx-auto ">
               <div className="text-center my-3 py-3">
-                <img src="/images/logo.png" alt="" className="img-fluid" />
+                <img src="/images/logo.png" alt="" className="img-fluid img"/>
                 <h5 class=" ">Login</h5>
               </div>
 
