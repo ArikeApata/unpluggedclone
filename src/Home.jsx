@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+
+
 const Home = () => {
   return (
     <section id="intro">
-      <div class="container-fluid-lg bg-dark">
-        <div class="row  orpcy">
+      <div class="container-fluid-lg ">
+        <div class="row orpcy">
           <div class="col-sm-4 text-center ">
             <img class="img-fluid " src="/images/home-Image.jpg" alt="" />
           </div>
@@ -10,7 +13,15 @@ const Home = () => {
           <div class="col-sm-8 text-light text-center text-md-start d-flex flex-column align-items-center">
             <div className="login-forms mx-auto ">
               <div className="text-center my-3 py-3">
-                <img src="/images/logo.png" alt="" className="img-fluid img"/>
+                
+                <Link to="/">
+                 
+                  <img
+                    src="/images/logo.png"
+                    alt=""
+                    className="img-fluid img"
+                  />
+                </Link>
                 <h5 class=" ">Login</h5>
               </div>
 
@@ -23,7 +34,7 @@ const Home = () => {
                 </a>
               </div>
               <div className="text-center">
-                <a href="#story" class="btn btn-danger btn-lg">
+                <a href="#story" class="btn insta btn-lg">
                   <span>
                     <i className="bi bi-instagram px-3"></i>
                   </span>
@@ -44,7 +55,7 @@ const Home = () => {
                     className="form-control mb-3 bg-dark"
                     placeholder="*****"
                   />
-                  <button className="btn btn-success px-5 py-0">Login</button>
+                  <button className="btn login px-5 py-1">Login</button>
                 </form>
               </div>
             </div>

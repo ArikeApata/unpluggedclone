@@ -7,3 +7,18 @@
 .img{
   width: 100px;
 }
+.insta{
+  background: #d53d8f;
+  color: #fff;
+}
+.login{
+  background: #2fd865;
+  color: #fff;
+}
+.sidelinks{
+    color: #009688;
+}
+.sidelinks a{
+  text-decoration: none;
+  color: #009688;
+}
