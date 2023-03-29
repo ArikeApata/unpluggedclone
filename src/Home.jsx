@@ -38,7 +38,7 @@ const Home = () => {
                   <span>
                     <i className="bi bi-instagram px-3"></i>
                   </span>
-                  login with insatgram
+                  login with instagram
                 </a>
               </div>
 

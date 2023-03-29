@@ -22,3 +22,28 @@
   text-decoration: none;
   color: #009688;
 }
+.host-img{
+  width: 20%;
+  justify-content: center;
+  /* margin: 0 auto; */
+}
+.vv{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.vv input{
+  width: 49%;
+  margin-right: 2%;
+}
+.image img{
+  height: 50%;
+  border: none;
+}
+.host-img2 img{
+  width: 100%;
+}
+.next-btn{
+  justify-content: center;
+  background: rgb(59, 247, 247);
+  color: #fff;
+}
