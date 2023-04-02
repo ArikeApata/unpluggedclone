@@ -1,11 +1,34 @@
 .login-forms{
   max-width: 350px;
 }
+.logo{
+  width: 15%;
+}
+.home-image{
+  height: 100vh;
+  object-fit: fill;
+}
+.host-image{
+  width: 100px;
+}
+.hostimag{
+  width: 10px;
+}
 .orpcy{
   min-height: 100vh;
 }
+
+.side-image img{
+  margin: 0;
+  width: 100%;
+  max-width: 300px;
+  height: 50%;
+}
 .img{
   width: 100px;
+}
+.img3{
+  width: 50px;
 }
 .insta{
   background: #d53d8f;
@@ -15,8 +38,9 @@
   background: #2fd865;
   color: #fff;
 }
-.sidelinks{
+.sidelinks li{
     color: #009688;
+  margin-bottom: 10px;
 }
 .sidelinks a{
   text-decoration: none;
@@ -42,8 +66,55 @@
 .host-img2 img{
   width: 100%;
 }
+.diff{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+    
+}
+.quote{
+  /* font-family: 'Sacramento', cursive; */
+    font-size: 50px;
+    font-style: italic;
+}
 .next-btn{
   justify-content: center;
-  background: rgb(59, 247, 247);
+  background: rgb(108, 215, 215);
   color: #fff;
+}
+.actions-row{
+  border-top: 1px solid grey;
+}
+.profile-logo{
+  width: 150px;
+
+}
+.host-desc{
+ background: #222222;
+}
+.mail{
+  margin: auto;
+  text-align: right;
+
+}
+.mail-icon{
+  font-size: 50px;
+}
+.desc-text{
+  font-size: 13px;
+}
+
+.host{
+  font-size: 11px;
+}
+.profile{
+  font-size: 18px;
+}
+.notif, .icn{
+  float: right;
+}
+.xxx{
+  max-width: 130px;
+}
+.create-sidebar{
+  max-width: 300px;
 }
