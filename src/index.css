@@ -1,120 +1,157 @@
-.login-forms{
+.login-forms {
   max-width: 350px;
 }
-.logo{
+
+.logo {
   width: 15%;
 }
-.home-image{
+
+.home-image {
   height: 100vh;
   object-fit: fill;
 }
-.host-image{
+
+.host-image {
   width: 100px;
 }
-.hostimag{
+
+.hostimag {
   width: 10px;
 }
-.orpcy{
+
+.orpcy {
   min-height: 100vh;
 }
 
-.side-image img{
+.side-image img {
   margin: 0;
   width: 100%;
   max-width: 300px;
   height: 50%;
 }
-.img{
+
+.img {
   width: 100px;
 }
-.img3{
+
+.img3 {
   width: 50px;
 }
-.insta{
+
+.insta {
   background: #d53d8f;
   color: #fff;
 }
-.login{
+
+.login {
   background: #2fd865;
   color: #fff;
 }
-.sidelinks li{
-    color: #009688;
+
+.sidelinks li {
+  color: #009688;
   margin-bottom: 10px;
 }
-.sidelinks a{
+
+.sidelinks a {
   text-decoration: none;
   color: #009688;
 }
-.host-img{
+
+.host-img {
   width: 20%;
   justify-content: center;
   /* margin: 0 auto; */
 }
-.vv{
+
+.vv {
   width: 100%;
   margin-bottom: 10px;
 }
-.vv input{
+
+.vv input {
   width: 49%;
   margin-right: 2%;
 }
-.image img{
+
+.image-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image img {
   height: 50%;
   border: none;
 }
-.host-img2 img{
+
+.host-img2 img {
   width: 100%;
 }
-.diff{
+
+.diff {
   font-family: 'Sacramento', cursive;
   font-size: 40px;
-    
+
 }
-.quote{
+
+.quote {
   /* font-family: 'Sacramento', cursive; */
-    font-size: 50px;
-    font-style: italic;
+  font-size: 50px;
+  font-style: italic;
 }
-.next-btn{
+
+.next-btn {
   justify-content: center;
   background: rgb(108, 215, 215);
   color: #fff;
 }
-.actions-row{
+
+.actions-row {
   border-top: 1px solid grey;
 }
-.profile-logo{
+
+.profile-logo {
   width: 150px;
 
 }
-.host-desc{
- background: #222222;
+
+.host-desc {
+  background: #222222;
 }
-.mail{
+
+.mail {
   margin: auto;
   text-align: right;
 
 }
-.mail-icon{
+
+.mail-icon {
   font-size: 50px;
 }
-.desc-text{
+
+.desc-text {
   font-size: 13px;
 }
 
-.host{
+.host {
   font-size: 11px;
 }
-.profile{
+
+.profile {
   font-size: 18px;
 }
-.notif, .icn{
+
+.notif,
+.icn {
   float: right;
 }
-.xxx{
+
+.xxx {
   max-width: 130px;
 }
-.create-sidebar{
+
+.create-sidebar {
   max-width: 300px;
 }

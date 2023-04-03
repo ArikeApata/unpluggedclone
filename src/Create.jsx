@@ -5,7 +5,7 @@ const Create = () => {
       <div className="container-md justify-content-between mx-auto">
         <div className="text-center">
           <h4 className="text-light">Create your Event</h4>
-          <h6 class=" sidelinks">Preview Publish</h6>
+          <h6 className=" sidelinks">Preview Publish</h6>
         </div>
         <div className="row  text-light">
           <div className="col-sm-12 col-md-10 justify-content-between">
@@ -161,7 +161,7 @@ const Create = () => {
                 </div>
                 <div className="row">
                   <p className="lead">About the host</p>
-                  <p className="text-left m-1 row align-items-flex-start">
+                  <div className="text-left m-1 row align-items-flex-start">
                     <span className="col-1">
                       <em>
                         <i className="bi bi-quote quote"></i>
@@ -175,7 +175,7 @@ const Create = () => {
                       possimus laudantium mollitia id recusandae optio
                       reiciendis nesciunt quos facilis. Beatae, atque quam.
                     </div>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -195,15 +195,15 @@ const Create = () => {
               </div>
             </div>
             <div className="row mt-4 py-2 justify-content-center actions-row">
-              <div className="col-4 text-center border border-success">
+              <div className="col-sm-5 col-lg-4 text-center border border-success">
                 <button className="btn text-success">Back</button>
               </div>
-              <div className="col-2 mx-1 text-center next-btn">
+              <div className="col-sm-5 col-lg-2 mx-1 text-center next-btn">
                 <button className="btn text-light">Create Event</button>
               </div>
             </div>
           </div>
-          <div className="col-md-2 d-sm-none d-md-block m-0">
+          <div className="col-md-2 d-md-block d-sm-none m-0">
             <div className="">
               <div className="w-100 event-image">
                 <img
@@ -237,9 +237,9 @@ const Create = () => {
         aria-labelledby="sidebar-label"
       >
         <div className="offcanvas-heading">
-          <div class="offcanvas-heading">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="sidebar-label">
+          <div className="offcanvas-heading">
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="sidebar-label">
                 <Link to="/">
                   <img
                     src="/images/logo.png"
@@ -250,13 +250,13 @@ const Create = () => {
               </h5>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
 
-            <div class="offcanvas-body">
+            <div className="offcanvas-body">
               <ul className=" sidelinks">
                 <li>
                   <Link>Events Generals</Link>

@@ -48,23 +48,109 @@ const Profile = () => {
               <p>JaneTheHou..</p>
             </div>
           </div>
+          <div className="col-1 ">
+            <img src="/images/firstimg.png" alt="" className="img-fluid" />
+            <div className="text-light">
+              <p>The Famou...</p>
+            </div>
+          </div>
+          <div className="col-1">
+            <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
+            <div className="text-light">
+              <p>KaneTV</p>
+            </div>
+          </div>
+          <div className="col-1">
+            <img
+              src="/images/fourthimg.png"
+              alt=""
+              className="img-fluid c0l-1"
+            />
+            <div className="text-light">
+              <p>JaneTheHou..</p>
+            </div>
+          </div>
+          <div className="col-1 ">
+            <img src="/images/firstimg.png" alt="" className="img-fluid" />
+            <div className="text-light">
+              <p>The Famou...</p>
+            </div>
+          </div>
+          <div className="col-1">
+            <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
+            <div className="text-light">
+              <p>KaneTV</p>
+            </div>
+          </div>
+          <div className="col-1">
+            <img
+              src="/images/fourthimg.png"
+              alt=""
+              className="img-fluid c0l-1"
+            />
+            <div className="text-light">
+              <p>JaneTheHou..</p>
+            </div>
+          </div>
+          <div className="col-1 ">
+            <img src="/images/firstimg.png" alt="" className="img-fluid" />
+            <div className="text-light">
+              <p>The Famou...</p>
+            </div>
+          </div>
+          <div className="col-1">
+            <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
+            <div className="text-light">
+              <p>KaneTV</p>
+            </div>
+          </div>
+          <div className="col-1">
+            <img
+              src="/images/fourthimg.png"
+              alt=""
+              className="img-fluid c0l-1"
+            />
+            <div className="text-light">
+              <p>JaneTheHou..</p>
+            </div>
+          </div>
         </div>
         <div className="d-flex justify-content-between align-items center">
           <p className="lead text-light">Recent Events you Joined</p>
           <i className="bi bi-list text-light icn"></i>
         </div>
-        <div className="row justify-content-between align-items-center">
-          <div className="col-3">
-            <img src="/images/guitar-dude.jpg" alt="" className="img-fluid" />
+        <div className="row mx-auto justify-content-between ">
+          <div className="col-sm-12 mb-3 col-md-6 col-lg-3">
+            <img src="/images/youPage1.png" alt="" className="img-fluid" />
+            <div className="desc-text">
+              <p className="text-left text-light">30 Minutes Guitar Workshop</p>
+              <p className="text-info">May 4- 11am</p>
+            </div>
           </div>
-          <div className="col-3">
-            <img src="/images/guitar-dude.jpg" alt="" className="img-fluid" />
+          <div className="col-sm-12 mb-3 col-md-6 col-lg-3">
+            <img src="/images/youPage2.png" alt="" className="img-fluid" />
+            <div className="desc-text">
+              <p className="text-left text-light">
+                Happiness Meditation with Chocolate
+              </p>
+              <p className="text-info">May 5- 5pm</p>
+            </div>
           </div>
-          <div className="col-3">
-            <img src="/images/guitar-dude.jpg" alt="" className="img-fluid" />
+          <div className="col-sm-12 mb-3 col-md-6 col-lg-3">
+            <img src="/images/youPage3.png" alt="" className="img-fluid" />
+            <div className="desc-text">
+              <p className="text-left text-light">Cello Meditation Concert</p>
+              <p className="text-info">May 4- 11am</p>
+            </div>
           </div>
-          <div className="col-3">
-            <img src="/images/guitar-dude.jpg" alt="" className="img-fluid" />
+          <div className="col-sm-12 mb-3 col-md-6 col-lg-3">
+            <img src="/images/youPage4.png" alt="" className="img-fluid" />
+            <div className="desc-text">
+              <p className="text-left text-light">
+                Draw from Withun a New York Artist
+              </p>
+              <p className="text-info">May 4- 11am</p>
+            </div>
           </div>
         </div>
         <div
@@ -82,9 +168,9 @@ const Profile = () => {
               />
             </div>
             <div className="offcanvas-body text-center text-light">
-              <i className="bi bi-person-fill p-3 m-3 iccn"></i>
-
-              <i className="bi bi-calendar2-minus p-3 m-3 iccn"></i>
+              <i className="bi bi-grid-fill text-info p-3 my-5"></i>
+              <i className="bi bi-person-fill p-3 my-5 "></i>
+              <i className="bi bi-calendar2-minus p-3 my-5"></i>
             </div>
           </div>
         </div>

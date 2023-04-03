@@ -15,6 +15,7 @@ const Host = () => {
         <div class="row justify-content-between">
           <div class="col-md-1 text-center side-image">
             <img class="img-fluid" src="/images/leftimage.jpg" alt="" />
+            {/* <div className="image-caption">Reupload</div> */}
           </div>
 
           <div class="col-md-10 justify-content-center text-center text-md-start">
@@ -38,7 +39,9 @@ const Host = () => {
                     alt=""
                     className="img-fluid host-image"
                   />
+                  {/* <div className="image-caption">REUPLOAD</div> */}
                 </div>
+                
               </div>
               <div className="row mx-auto my-3 text-light">
                 <div className="col-2 ">
