@@ -82,7 +82,7 @@ const Profile = () => {
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 d-none-sm d-flex">
             <img
               src="/images/fourthimg.png"
               alt=""
