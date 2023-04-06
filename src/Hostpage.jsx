@@ -3,8 +3,8 @@ const Host = () => {
   return (
     <section className="host">
       <div className="hostpage">
-        <nav className="p-4">
-          <img src="/images/logo.png" alt="" className="img-fluid logo p-4" />
+        <nav className="py-4 mx-3">
+          <img src="/images/logo.png" alt="" className="img-fluid logo" />
         </nav>
         {/* <div className="w-100">
           
@@ -13,18 +13,17 @@ const Host = () => {
           </Link>
         </div> */}
         <div class="row justify-content-between">
-          <div class="col-md-1 text-center side-image">
+          <div class="col-md-2 d-none d-md-block text-center side-image">
             <img class="img-fluid" src="/images/leftimage.jpg" alt="" />
-            {/* <div className="image-caption">Reupload</div> */}
           </div>
 
-          <div class="col-md-10 justify-content-center text-center text-md-start">
-            <div className="container mx-auto">
+          <div class="col-12 col-md-8 justify-content-center text-center text-md-start">
+            <div className="mx-auto">
               <div className="text-center">
                 <h4 className="text-light">Become an event host</h4>
                 <h6 class=" text-success">0% Complete</h6>
               </div>
-              <div className="row mx-auto my-3 text-light">
+              <div className="row justify-content-center mx-auto my-3 text-light">
                 <div className="col-2 d-block">
                   <div className="text-start ">
                     <p className="lead mb-0 sidelinks">01</p>
@@ -41,9 +40,8 @@ const Host = () => {
                   />
                   {/* <div className="image-caption">REUPLOAD</div> */}
                 </div>
-                
               </div>
-              <div className="row mx-auto my-3 text-light">
+              <div className="row justify-content-center mx-auto my-3 text-light">
                 <div className="col-2 ">
                   <div className="text-start ">
                     <p className="lead mb-0 sidelinks">02</p>
@@ -61,7 +59,7 @@ const Host = () => {
                   />
                 </div>
               </div>
-              <div className="row mx-auto my-3 text-light">
+              <div className="row justify-content-center mx-auto my-3 text-light">
                 <div className="col-2 d-block">
                   <div className="text-start ">
                     <p className="lead mb-0 sidelinks">03</p>
@@ -105,7 +103,7 @@ const Host = () => {
                   </p>
                 </div>
               </div>
-              <div className="row mx-auto my-3 text-light">
+              <div className="row justify-content-center mx-auto my-3 text-light">
                 <div className="col-2 d-block">
                   <div className="text-start ">
                     <p className="lead mb-0 sidelinks">04</p>
@@ -143,10 +141,10 @@ const Host = () => {
               </div>
             </div>
             <div className="col-8 mx-auto mt-2 text-center">
-              <button className=" btn p-1 next-btn">Next</button>
+              <button className="btn p-1 next-btn">Next</button>
             </div>
           </div>
-          <div class="col-1 text-center side-image bg-dark">
+          <div class="col-2 d-none d-md-block text-center side-image bg-dark">
             <img
               class="img-fluid side-image"
               src="/images/rightimage.jpg"

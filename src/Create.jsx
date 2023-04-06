@@ -170,7 +170,7 @@ const Create = () => {
                 <div className="row">
                   <p className="lead">About the host</p>
                   <div className="text-left m-1 row align-items-flex-start">
-                    <span className="col-1">
+                    <span className="col-1 me-3">
                       <em>
                         <i className="bi bi-quote quote"></i>
                       </em>
