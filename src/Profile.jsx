@@ -25,20 +25,20 @@ const Profile = () => {
         </div>
         <p className="lead text-light ">Recent Hosts you Follow</p>
 
-        <div className="row mb-3 pb-3 text-light text-center align-items-center host">
-          <div className="col-1 ">
+        <div className="row mb-3 d-flex justify-content-between text-light text-center align-items-center host">
+          <div className="col-1 smallPic ">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -48,19 +48,19 @@ const Profile = () => {
               <p>JaneTheHou..</p>
             </div>
           </div>
-          <div className="col-1 ">
+          <div className="col-1 smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -70,19 +70,19 @@ const Profile = () => {
               <p>JaneTheHou..</p>
             </div>
           </div>
-          <div className="col-1 ">
+          <div className="col-1 smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1 d-none-sm d-flex">
+          <div className="col-1 smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -92,19 +92,19 @@ const Profile = () => {
               <p>JaneTheHou..</p>
             </div>
           </div>
-          <div className="col-1 ">
+          <div className="col-1 smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1">
+          <div className="col-1 smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -171,6 +171,10 @@ const Profile = () => {
               <i className="bi bi-grid-fill text-info p-3 my-5"></i>
               <i className="bi bi-person-fill p-3 my-5 "></i>
               <i className="bi bi-calendar2-minus p-3 my-5"></i>
+
+              <footer>
+                <i className="bi bi-arrow-right-square"></i>
+              </footer>
             </div>
           </div>
         </div>

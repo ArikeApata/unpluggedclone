@@ -2,6 +2,7 @@
   max-width: 350px;
 }
 
+
 .logo {
   width: 15%;
 }
@@ -120,6 +121,9 @@
 .host-desc {
   background: #222222;
 }
+.host-desc img{
+  height: 50%;
+}
 
 .mail {
   margin: auto;
@@ -134,9 +138,15 @@
 .desc-text {
   font-size: 13px;
 }
+/* profile page */
 
+/* .smallPic{
+  width: 90px;
+} */
 .host {
-  font-size: 11px;
+  font-size: 8px;
+  /* max-width: 1000px; */
+  /* overflow: scroll; */
 }
 
 .profile {
@@ -151,7 +161,19 @@
 .xxx {
   max-width: 130px;
 }
+/* create */
 
 .create-sidebar {
   max-width: 300px;
+}
+.create-btn{
+  min-width: fit-content;
+}
+@media screen and (max-width: 991px){
+  .host{
+    overflow: scroll;
+  }
+  .smallPic{
+    width: 80px;
+  }
 }

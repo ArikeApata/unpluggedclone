@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 const Create = () => {
   return (
-    <section className="create">
-      <div className="container-md justify-content-between mx-auto">
+    <section className="create mx-2">
+      <div className="justify-content-between mx-auto">
         <div className="text-center">
           <h4 className="text-light">Create your Event</h4>
           <h6 className=" sidelinks">Preview Publish</h6>
@@ -52,7 +52,7 @@ const Create = () => {
                 </div>
               </div>
             </div>
-            <div className="row tickets mb-3 ">
+            <div className="row tickets mb-3 px-3 mx-auto">
               <div className="border border-danger rounded-3 p-3">
                 <h5>Tickets Available</h5>
                 <p>
@@ -62,11 +62,11 @@ const Create = () => {
                 <p>*User has to purchase the same type of tickets</p>
               </div>
             </div>
-            <div className="row ">
-              <div className="row d-flex justify-content-between mb-3">
-                <div className="col-3 m-0">
+            <div className="row mx-auto">
+              <div className="row d-block d-md-flex justify-content-between mb-3">
+                <div className="col-md-3 m-0">
                   <h6> New Member Ticket</h6>
-                  <p className="desc-text mb-0 ">8 tickets Avalaible</p>
+                  <p className="desc-text mb-3">8 tickets Avalaible</p>
                 </div>
                 <div className="col-3">
                   <form className="justify-content-end">
@@ -78,24 +78,26 @@ const Create = () => {
                   </form>
                 </div>
               </div>
-              <div className="row d-flex justify-content-between mb-3">
-                <div className="col-3 m-0 ">
+              <div className="row d-block d-md-flex justify-content-between mb-3">
+                <div className="col-md-3 m-0 ">
                   <h6> VIP Tickets</h6>
-                  <p className="desc-text text-danger">2 tickets Left</p>
+                  <p className="desc-text text-danger mb-3">2 tickets Left</p>
                 </div>
-                <div className="col-3">
+                <div className="col-3 justify-content-center">
                   <form className="justify-content-end">
                     <input
                       type="text"
                       defaultValue="Quantity"
-                      className="text-light bg-dark border px-1 py-2 border-secondary rounded-2"
+                      className="text-light  bg-dark border px-1 py-2 border-secondary rounded-2"
                     />
                   </form>
                 </div>
               </div>
-              <div className="ticket-btn row mb-3 d-flex justify-content-between align-items-center">
-                <button className="col-2 btn btn-light py-2">Total: $0</button>
-                <button className="col-2 btn btn-secondary py-2">
+              <div className="ticket-btn row mb-3 d-block d-md-flex justify-content-between align-items-center">
+                <button className="col-md-2 btn mb-2 btn-light py-2 create-btn">
+                  Total: $0
+                </button>
+                <button className="col-md-2 btn btn-secondary py-2 create-btn">
                   Purchase Now
                 </button>
               </div>
@@ -139,22 +141,28 @@ const Create = () => {
                 </p>
               </div>
             </div>
-            <div className="row host-desc mb-3 border border-dark rounded-2">
-              <div className="col-12 justify-content-between  mx-auto p-1 text-light">
-                <div className="row">
-                  <div className="col-1">
-                    <img
-                      src="/images/host-image1.png"
-                      alt=""
-                      className="img-fluid rounded-circle"
-                    />
+            <div className="row mx-auto host-desc mb-3 border border-dark rounded-2">
+              <div className="col-12 p-1 text-light">
+                <div className="row justify-content-between">
+                  <div className="col-7">
+                    <div className="row">
+                      <div className="col-12 d-flex">
+                        <div className="col-4">
+                          <img
+                            src="/images/host-image1.png"
+                            alt=""
+                            className="img-fluid rounded-circle"
+                          />
+                        </div>
+                        <div className="col-7">
+                          <p className="lead mb-0">Event Host</p>
+                          <p className="text-success diff">Scarlett Robinson</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="col-5">
-                    <p className="lead mb-0">Event Host</p>
-                    <p className="text-success diff">Scarlett Robinson</p>
-                  </div>
-                  <div className="col-3">
-                    <button className="btn btn-dark px-2  py-1 border border-success">
+                  <div className="col-5 justify-content-flex-end">
+                    <button className="btn btn-dark px-2 py-1 border border-success">
                       Unfollow
                     </button>
                   </div>
@@ -203,7 +211,7 @@ const Create = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-2 d-md-block d-sm-none m-0">
+          <div className="col-md-2 d-none d-md-block  m-0">
             <div className="">
               <div className="w-100 event-image">
                 <img
