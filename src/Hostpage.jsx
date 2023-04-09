@@ -3,7 +3,7 @@ const Host = () => {
   return (
     <section className="host">
       <div className="hostpage">
-        <nav className="py-4 mx-3">
+        <nav className="py-4 mx-auto">
           <img src="/images/logo.png" alt="" className="img-fluid logo" />
         </nav>
         {/* <div className="w-100">
@@ -12,16 +12,16 @@ const Host = () => {
             <img src="/images/logo.png" alt="" className="img-fluid logo p-4" />
           </Link>
         </div> */}
-        <div class="row justify-content-between">
-          <div class="col-md-2 d-none d-md-block text-center side-image">
-            <img class="img-fluid" src="/images/leftimage.jpg" alt="" />
+        <div className="row justify-content-between">
+          <div className="col-md-2 d-none d-md-block text-center side-image">
+            <img className="img-fluid" src="/images/leftimage.jpg" alt="" />
           </div>
 
-          <div class="col-12 col-md-8 justify-content-center text-center text-md-start">
+          <div className="col-12 col-md-8 justify-content-center text-center text-md-start">
             <div className="mx-auto">
               <div className="text-center">
                 <h4 className="text-light">Become an event host</h4>
-                <h6 class=" text-success">0% Complete</h6>
+                <h6 className=" text-success">0% Complete</h6>
               </div>
               <div className="row justify-content-center mx-auto my-3 text-light">
                 <div className="col-2 d-block">
@@ -144,9 +144,9 @@ const Host = () => {
               <button className="btn p-1 next-btn">Next</button>
             </div>
           </div>
-          <div class="col-2 d-none d-md-block text-center side-image bg-dark">
+          <div className="col-2 d-none d-md-block text-center side-image bg-dark">
             <img
-              class="img-fluid side-image"
+              className="img-fluid side-image"
               src="/images/rightimage.jpg"
               alt=""
             />

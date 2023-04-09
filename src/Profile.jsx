@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
-    <div className="profile ">
-      <div className="container">
+    <div className="profile mx-auto">
+      <div className="">
         <Link
           to="#sidebar2"
           className="d-block mt-3"
@@ -16,7 +16,7 @@ const Profile = () => {
           </nav>
         </Link>
 
-        <div className="text-center">
+        <div className="">
           <img
             src="/images/logo.png"
             alt=""
@@ -25,20 +25,20 @@ const Profile = () => {
         </div>
         <p className="lead text-light ">Recent Hosts you Follow</p>
 
-        <div className="row mb-3 d-flex justify-content-between text-light text-center align-items-center host">
-          <div className="col-1 smallPic ">
+        <div className="mb-3 d-flex text-light align-items-center smallPicRoll">
+          <div className="smallPic ">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -48,19 +48,19 @@ const Profile = () => {
               <p>JaneTheHou..</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -70,19 +70,19 @@ const Profile = () => {
               <p>JaneTheHou..</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -92,19 +92,19 @@ const Profile = () => {
               <p>JaneTheHou..</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
             <div className="text-light">
               <p>The Famou...</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
             <div className="text-light">
               <p>KaneTV</p>
             </div>
           </div>
-          <div className="col-1 smallPic">
+          <div className="smallPic">
             <img
               src="/images/fourthimg.png"
               alt=""
@@ -120,7 +120,7 @@ const Profile = () => {
           <i className="bi bi-list text-light icn"></i>
         </div>
         <div className="row mx-auto justify-content-between ">
-          <div className="col-sm-12 mb-3 col-md-6 col-lg-3">
+          <div className="col-sm-12 mb-3 col-md-6 col-lg-3 mx-auto">
             <img src="/images/youPage1.png" alt="" className="img-fluid" />
             <div className="desc-text">
               <p className="text-left text-light">30 Minutes Guitar Workshop</p>
@@ -136,7 +136,7 @@ const Profile = () => {
               <p className="text-info">May 5- 5pm</p>
             </div>
           </div>
-          <div className="col-sm-12 mb-3 col-md-6 col-lg-3">
+          <div className="col-sm-12 mb-3 col-md-6 col-lg-3 mx-auto">
             <img src="/images/youPage3.png" alt="" className="img-fluid" />
             <div className="desc-text">
               <p className="text-left text-light">Cello Meditation Concert</p>

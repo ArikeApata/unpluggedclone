@@ -6,7 +6,7 @@ const Home = () => {
     <section id="intro">
       <div className="container-fluid-lg ">
         <div className="row orpcy">
-          <div className="col-sm-6 text-center">
+          <div className="col-4 m-1">
             <img className="img-fluid home-image" src="/images/home-Image.jpg" alt="" />
           </div>
           {/* <div className="container-fluid justify-content text-center"> */}

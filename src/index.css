@@ -31,6 +31,7 @@
   height: 80%;
 }
 
+
 .img {
   width: 100px;
 }
@@ -99,7 +100,7 @@
 
 .quote {
   /* font-family: 'Sacramento', cursive; */
-  font-size: 50px;
+  
   font-style: italic;
 }
 
@@ -121,7 +122,8 @@
 .host-desc {
   background: #222222;
 }
-.host-desc img{
+
+.host-desc img {
   height: 50%;
 }
 
@@ -138,15 +140,17 @@
 .desc-text {
   font-size: 13px;
 }
+
 /* profile page */
 
-/* .smallPic{
-  width: 90px;
-} */
-.host {
+.smallPicRoll {
   font-size: 8px;
-  /* max-width: 1000px; */
-  /* overflow: scroll; */
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+
+.smallPic {
+  min-width: 90px;
 }
 
 .profile {
@@ -161,19 +165,14 @@
 .xxx {
   max-width: 130px;
 }
+
 /* create */
 
 .create-sidebar {
   max-width: 300px;
 }
-.create-btn{
+
+.create-btn {
   min-width: fit-content;
 }
-@media screen and (max-width: 991px){
-  .host{
-    overflow: scroll;
-  }
-  .smallPic{
-    width: 80px;
-  }
-}
+
