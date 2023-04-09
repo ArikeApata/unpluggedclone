@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
 
-
 const Home = () => {
   return (
     <section id="intro">
       <div className="container-fluid-lg ">
-        <div className="row orpcy">
-          <div className="col-4 m-1">
-            <img className="img-fluid home-image" src="/images/home-Image.jpg" alt="" />
+        <div className="row m-0 orpcy">
+          <div className="col-md-4 h-100 py-2 d-none d-md-block">
+            <img
+              className="img-fluid home-image"
+              src="/images/home-Image.jpg"
+              alt=""
+            />
           </div>
-          {/* <div className="container-fluid justify-content text-center"> */}
-          <div className="col-sm-6 text-light text-center text-md-start d-flex flex-column align-items-center">
+          <div className="col-md-8 mt-5 text-light text-center">
             <div className="login-forms mx-auto ">
               <div className="text-center my-3 py-3">
-                
                 <Link to="/">
-                 
                   <img
                     src="/images/logo.png"
                     alt=""
@@ -26,7 +26,7 @@ const Home = () => {
               </div>
 
               <div className="text-center mb-3">
-                <a href="#story" className="btn btn-primary btn-lg">
+                <a href="#story" className="w-100 btn btn-primary">
                   <span>
                     <i className="bi bi-facebook px-3"></i>
                   </span>
@@ -34,7 +34,7 @@ const Home = () => {
                 </a>
               </div>
               <div className="text-center">
-                <a href="#story" className="btn insta btn-lg">
+                <a href="#story" className="w-100 btn insta">
                   <span>
                     <i className="bi bi-instagram px-3"></i>
                   </span>
@@ -43,7 +43,11 @@ const Home = () => {
               </div>
 
               <div className="text-center">
-                <p className="border-top-4">or</p>
+                <div className="line-or my-3">
+                  <hr />
+                  <span>OR</span>
+                  <hr />
+                </div>
                 <form action="">
                   <input
                     type="email"
@@ -55,7 +59,7 @@ const Home = () => {
                     className="form-control mb-3 bg-dark"
                     placeholder="*****"
                   />
-                  <button className="btn login px-5 py-1">Login</button>
+                  <button className="btn mt-4 login py-1 w-100 btn-teal">Login</button>
                 </form>
               </div>
             </div>

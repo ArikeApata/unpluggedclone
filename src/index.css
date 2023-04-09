@@ -1,15 +1,22 @@
-.login-forms {
-  max-width: 350px;
+.App{
+  min-height: 100vh;
 }
 
+.login-forms {
+  max-width: 350px;
+  width: 100%;
+}
 
 .logo {
   width: 15%;
 }
 
 .home-image {
-  height: 100vh;
-  object-fit: fill;
+  width: 100%;
+  /* max-width: 480px; */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .host-image {
@@ -21,14 +28,13 @@
 }
 
 .orpcy {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .side-image img {
   margin: 0;
   width: 100%;
-  max-width: 300px;
-  height: 80%;
+  max-width: 125px;
 }
 
 
@@ -71,16 +77,16 @@
   margin-bottom: 10px;
 }
 
-.vv input {
+/* .vv input {
   width: 49%;
   margin-right: 2%;
-}
+} */
 
 .image-caption {
   position: absolute;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .image img {
@@ -150,7 +156,8 @@
 }
 
 .smallPic {
-  min-width: 90px;
+  min-width: 110px;
+  margin-right: 16px;
 }
 
 .profile {
@@ -174,5 +181,25 @@
 
 .create-btn {
   min-width: fit-content;
+}
+
+.line-or{
+  display: flex;
+  align-items: center;
+}
+
+.line-or span{
+  color: white;
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+.line-or hr{
+  flex: 1;
+  border: 1.2px solid rgb(177, 177, 177);
+}
+
+.btn-teal{
+  background-color: rgb(21, 138, 138);
 }
 

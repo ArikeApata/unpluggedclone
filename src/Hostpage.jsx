@@ -3,7 +3,7 @@ const Host = () => {
   return (
     <section className="host">
       <div className="hostpage">
-        <nav className="py-4 mx-auto">
+        <nav className="py-4 ps-4">
           <img src="/images/logo.png" alt="" className="img-fluid logo" />
         </nav>
         {/* <div className="w-100">
@@ -13,16 +13,22 @@ const Host = () => {
           </Link>
         </div> */}
         <div className="row justify-content-between">
-          <div className="col-md-2 d-none d-md-block text-center side-image">
+          <div className="col-md-2 d-none d-md-block text-start side-image">
             <img className="img-fluid" src="/images/leftimage.jpg" alt="" />
           </div>
 
           <div className="col-12 col-md-8 justify-content-center text-center text-md-start">
             <div className="mx-auto">
-              <div className="text-center">
-                <h4 className="text-light">Become an event host</h4>
-                <h6 className=" text-success">0% Complete</h6>
+              <div className="row justify-content-evenly mx-auto">
+                <div className="col-2"></div>
+                <div className="col-8">
+                  <div className="text-center">
+                    <h4 className="text-light">Become an event host</h4>
+                    <h6 className=" text-success">0% Complete</h6>
+                  </div>
+                </div>
               </div>
+
               <div className="row justify-content-center mx-auto my-3 text-light">
                 <div className="col-2 d-block">
                   <div className="text-start ">
@@ -33,12 +39,14 @@ const Host = () => {
                   </div>
                 </div>
                 <div className="col-8 text-center border-2">
-                  <img
-                    src="/images/host-image1.png"
-                    alt=""
-                    className="img-fluid host-image"
-                  />
-                  {/* <div className="image-caption">REUPLOAD</div> */}
+                  <div className="position-relative d-flex align-content-center justify-content-center">
+                    <img
+                      src="/images/host-image1.png"
+                      alt=""
+                      className="img-fluid host-image"
+                    />
+                    <div className="image-caption">Reupload</div>
+                  </div>
                 </div>
               </div>
               <div className="row justify-content-center mx-auto my-3 text-light">
@@ -70,29 +78,38 @@ const Host = () => {
                   </div>
                 </div>
                 <div className="col-8 host-img2">
-                  <form className="col-12 d-flex vv">
-                    <input
-                      defaultValue="Scarlett"
-                      type="text"
-                      className="text-light bg-dark border border-secondary rounded-2"
-                    />
-                    <input
-                      type="text"
-                      defaultValue="Robinson"
-                      className="text-light bg-dark border border-secondary rounded-2"
-                    />
+                  <form className="row mx-0 vv">
+                    <div className="col-6 px-0">
+                      <input
+                        defaultValue="Scarlett"
+                        type="text"
+                        className="w-100 text-light bg-dark border border-secondary rounded-2"
+                      />
+                    </div>
+                    <div className="col-6 pe-0">
+                      <input
+                        type="text"
+                        defaultValue="Robinson"
+                        className="w-100 text-light bg-dark border border-secondary rounded-2"
+                      />
+                    </div>
                   </form>
-                  <form className="col-12 d-flex vv">
-                    <input
-                      type="text"
-                      defaultValue="United States of America"
-                      className="text-light bg-dark border border-secondary rounded-2"
-                    />
-                    <input
-                      type="text"
-                      defaultValue="Project Manager"
-                      className="text-light bg-dark border border-secondary rounded-2"
-                    />
+                  <form className="row mx-0 vv">
+                    <div className="col-6 px-0">
+                      <input
+                        type="text"
+                        defaultValue="United States of America"
+                        className="w-100 text-light bg-dark border border-secondary rounded-2"
+                      />
+                    </div>
+
+                    <div className="col-6 pe-0">
+                      <input
+                        type="text"
+                        defaultValue="Project Manager"
+                        className="w-100 text-light bg-dark border border-secondary rounded-2"
+                      />
+                    </div>
                   </form>
 
                   <p className="border border-secondary p-1 rounded-2">
@@ -141,10 +158,10 @@ const Host = () => {
               </div>
             </div>
             <div className="col-8 mx-auto mt-2 text-center">
-              <button className="btn p-1 next-btn">Next</button>
+              <button className="btn p-1 next-btn px-4">Next</button>
             </div>
           </div>
-          <div className="col-2 d-none d-md-block text-center side-image bg-dark">
+          <div className="col-2 d-none d-md-block text-end side-image bg-dark">
             <img
               className="img-fluid side-image"
               src="/images/rightimage.jpg"

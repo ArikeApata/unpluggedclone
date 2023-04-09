@@ -1,12 +1,25 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
+  const [profiles, setProfiles] = useState([
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+    { img: "/images/firstimg.png", text: "The Famou..." },
+  ]);
   return (
     <div className="profile mx-auto">
-      <div className="">
+      <div className="container">
         <Link
           to="#sidebar2"
-          className="d-block mt-3"
+          className="d-block"
           role="button"
           aria-controls="sidebars"
           data-bs-toggle="offcanvas"
@@ -26,15 +39,42 @@ const Profile = () => {
         <p className="lead text-light ">Recent Hosts you Follow</p>
 
         <div className="mb-3 d-flex text-light align-items-center smallPicRoll">
-          <div className="smallPic ">
+          <div className="smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
+              <p>The Famou...</p>
+            </div>
+          </div>
+
+          {profiles.map((p, index) => {
+            return (
+              <div className="smallPic" key={index}>
+                <img src={p.img} alt="" className="img-fluid c0l-1" />
+                <div className="text-light text-center mt-2">
+                  <p>{p.text}</p>
+                </div>
+              </div>
+            );
+          })}
+          {/* <div className="smallPic">
+            <img
+              src="/images/fourthimg.png"
+              alt=""
+              className="img-fluid c0l-1"
+            />
+            <div className="text-light text-center mt-2">
+              <p>JaneTheHou..</p>
+            </div>
+          </div>
+          <div className="smallPic">
+            <img src="/images/firstimg.png" alt="" className="img-fluid" />
+            <div className="text-light text-center mt-2">
               <p>The Famou...</p>
             </div>
           </div>
           <div className="smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>KaneTV</p>
             </div>
           </div>
@@ -44,19 +84,19 @@ const Profile = () => {
               alt=""
               className="img-fluid c0l-1"
             />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>JaneTheHou..</p>
             </div>
           </div>
           <div className="smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>The Famou...</p>
             </div>
           </div>
           <div className="smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>KaneTV</p>
             </div>
           </div>
@@ -66,19 +106,19 @@ const Profile = () => {
               alt=""
               className="img-fluid c0l-1"
             />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>JaneTheHou..</p>
             </div>
           </div>
           <div className="smallPic">
             <img src="/images/firstimg.png" alt="" className="img-fluid" />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>The Famou...</p>
             </div>
           </div>
           <div className="smallPic">
             <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>KaneTV</p>
             </div>
           </div>
@@ -88,32 +128,10 @@ const Profile = () => {
               alt=""
               className="img-fluid c0l-1"
             />
-            <div className="text-light">
+            <div className="text-light text-center mt-2">
               <p>JaneTheHou..</p>
             </div>
-          </div>
-          <div className="smallPic">
-            <img src="/images/firstimg.png" alt="" className="img-fluid" />
-            <div className="text-light">
-              <p>The Famou...</p>
-            </div>
-          </div>
-          <div className="smallPic">
-            <img src="/images/kanetv.png" alt="" className="img-fluid c0l-1" />
-            <div className="text-light">
-              <p>KaneTV</p>
-            </div>
-          </div>
-          <div className="smallPic">
-            <img
-              src="/images/fourthimg.png"
-              alt=""
-              className="img-fluid c0l-1"
-            />
-            <div className="text-light">
-              <p>JaneTheHou..</p>
-            </div>
-          </div>
+          </div> */}
         </div>
         <div className="d-flex justify-content-between align-items center">
           <p className="lead text-light">Recent Events you Joined</p>
