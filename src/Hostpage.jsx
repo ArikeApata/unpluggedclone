@@ -60,11 +60,14 @@ const Host = () => {
                   </div>
                 </div>
                 <div className="col-8 host-img2">
-                  <img
-                    src="/images/host-imag2.png"
-                    alt=""
-                    className="img-fluid hostimag"
-                  />
+                  <div className="position-relative d-flex align-content-center justify-content-center">
+                    <img
+                      src="/images/host-imag2.png"
+                      alt=""
+                      className="img-fluid hostimag"
+                    />
+                    <div className="image-caption">Reupload</div>
+                  </div>
                 </div>
               </div>
               <div className="row justify-content-center mx-auto my-3 text-light">
@@ -102,22 +105,24 @@ const Host = () => {
                         className="w-100 text-light bg-dark border border-secondary rounded-2"
                       />
                     </div>
-
-                    <div className="col-6 pe-0">
+                    <div className="col-6 pe-0 mb-2">
                       <input
                         type="text"
                         defaultValue="Project Manager"
                         className="w-100 text-light bg-dark border border-secondary rounded-2"
                       />
                     </div>
+                    <div className="border border-secondary rounded-2">
+                      <textarea
+                        type="text"
+                        defaultValue=""
+                        className="personalInfo w-100 text-light bg-dark py-2"
+                        rows="4"
+                        cols="60"
+                      />
+                    </div>
+                    <span id="char_count">100 characters remaining</span>
                   </form>
-
-                  <p className="border border-secondary p-1 rounded-2">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quae, accusantium et aliquam sapiente, debitis commodi
-                    exercitationem maxime molestias nostrum ex eius quis iste ea
-                    voluptates voluptatum odit porro eveniet placeat!
-                  </p>
                 </div>
               </div>
               <div className="row justify-content-center mx-auto my-3 text-light">

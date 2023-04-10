@@ -11,8 +11,8 @@ const Create = () => {
           <div className="row text-light">
             <div className="col-sm-12 col-md-10 justify-content-between">
               <div className="container-md text-light">
-                <div className="row mx-auto py-4 justify-content-between">
-                  <div className="col-4">
+                <div className="d-flex mx-auto py-4 justify-content-between">
+                  <div className="w-30">
                     <Link
                       to="#sidebar"
                       className=""
@@ -23,12 +23,12 @@ const Create = () => {
                       <img
                         src="/images/logo.png"
                         alt=""
-                        className="img-fluid img"
+                        className="img-fluid create-logo"
                       />
                     </Link>
                   </div>
 
-                  <div className="col-sm-6 col-lg-4 text-light">
+                  <div className="text-light">
                     <span>
                       <i className="bi bi-clock px-2"></i>starting in 3 days, 44
                       mins
@@ -36,41 +36,50 @@ const Create = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <h5 className=""> Guiter Meditation Session</h5>
-                  <div className="row justify-content-between">
-                    <div className="col-4  mx-auto">
+                  <h5> Guiter Meditation Session</h5>
+                  <div className="d-flex justify-content-between">
+                    <div className="ps-5">
                       <p>Be the first to join</p>
                     </div>
-                    <div className="col-3">
-                      <span>
+                    <div className="">
+                      <span className="me-3">
                         <i className="bi bi-people px-2"></i>
                       </span>
-                      <span>
+                      <span className="me-3">
                         <i className="bi bi-gender-male"></i>
                       </span>
-                      <span>
+                      <span className="">
                         <i className="bi bi-gem px-2"></i>
                       </span>
                     </div>
                   </div>
                 </div>
-                <div className="row tickets mb-3 px-3 mx-auto">
-                  <div className="border border-danger rounded-3 p-3">
-                    <h5>Tickets Available</h5>
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Recusandae ullam soluta adipisci itaque!
-                    </p>
-                    <p>*User has to purchase the same type of tickets</p>
+                <div className="mb-3">
+                  <div className="tickets d-flex p-3">
+                    <div className="text-light">
+                      <img
+                        src="/images/party-icon.jpg"
+                        alt=""
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div>
+                      <h5>Tickets Available</h5>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Recusandae ullam soluta adipisci itaque!
+                      </p>
+                      <p>*User has to purchase the same type of tickets</p>
+                    </div>
                   </div>
                 </div>
-                <div className="row mx-auto">
-                  <div className="row d-block d-md-flex justify-content-between mb-3">
-                    <div className="col-md-3 m-0">
+                <div className="row">
+                  <div className="d-block d-md-flex justify-content-between mb-3">
+                    <div className="m-0">
                       <h6> New Member Ticket</h6>
                       <p className="desc-text mb-3">8 tickets Avalaible</p>
                     </div>
-                    <div className="col-3">
+                    <div className="">
                       <form className="justify-content-end">
                         <input
                           type="text"
@@ -80,14 +89,14 @@ const Create = () => {
                       </form>
                     </div>
                   </div>
-                  <div className="row d-block d-md-flex justify-content-between mb-3">
-                    <div className="col-md-3 m-0 ">
+                  <div className="d-block d-md-flex justify-content-between mb-3">
+                    <div className="m-0 ">
                       <h6> VIP Tickets</h6>
                       <p className="desc-text text-danger mb-3">
                         2 tickets Left
                       </p>
                     </div>
-                    <div className="col-3 justify-content-center">
+                    <div className="justify-content-center">
                       <form className="justify-content-end">
                         <input
                           type="text"
@@ -97,37 +106,28 @@ const Create = () => {
                       </form>
                     </div>
                   </div>
-                  <div className="ticket-btn row mb-3 d-block d-md-flex justify-content-between align-items-center">
-                    <button className="col-md-2 btn mb-2 btn-light py-2 create-btn">
+                  <div className="ticket-btn mb-3 d-block d-lg-flex justify-content-between align-items-center">
+                    <button className="btn btn-light p-2 create-btn">
                       Total: $0
                     </button>
-                    <button className="col-md-2 btn btn-secondary py-2 create-btn">
+                    <button className="btn btn-secondary py-2 px-5 create-btn">
                       Purchase Now
                     </button>
                   </div>
                 </div>
-                <div className="row w-100">
-                  {/* <div className="col-12 w-100 h-50">
-                <video
-                className="img-fluid w-100 h-100"
-                 src="">
-
-                </video>
-              </div> */}
-                  <div className="col-12 w-100 embed-responsive embed-responsive-21by9">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/ZU_RfBH_I3I"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
+                <div className="advideo mb-3 border border-dark rounded-2 w-100 embed-responsive embed-responsive-21by9">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/ZU_RfBH_I3I"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
                 </div>
-                <div className="row text-left">
-                  <div className="col-12">
+                <div className="text-left my-2">
+                  <div className="">
                     <h5 className="">Event Description</h5>
                     <p className="lead desc-text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -150,42 +150,35 @@ const Create = () => {
                   </div>
                 </div>
                 <div className="row mx-auto host-desc mb-3 border border-dark rounded-2">
-                  <div className="col-12 p-1 text-light">
-                    <div className="row justify-content-between">
-                      <div className="col-7">
-                        <div className="row">
-                          <div className="col-12 d-flex">
-                            <div className="col-4">
-                              <img
-                                src="/images/host-image1.png"
-                                alt=""
-                                className="img-fluid rounded-circle"
-                              />
-                            </div>
-                            <div className="col-7">
-                              <p className="lead mb-0">Event Host</p>
-                              <p className="text-success diff">
-                                Scarlett Robinson
-                              </p>
-                            </div>
-                          </div>
+                  <div className="text-light">
+                    <div className="p-2 me-0 d-flex justify-content-between">
+                      <div className="d-flex">
+                        <img
+                          src="/images/host-image1.png"
+                          alt=""
+                          className="img-fluid pfp rounded-circle"
+                        />
+                        <div className="div">
+                          <p className="lead mb-0">Event Host</p>
+                          <p className="text-success diff">Scarlett Robinson</p>
                         </div>
                       </div>
-                      <div className="col-5 justify-content-flex-end">
-                        <button className="btn btn-dark px-2 py-1 border border-success">
+
+                      <div className="div">
+                        <button className="btn btn-dark border border-success">
                           Unfollow
                         </button>
                       </div>
                     </div>
                     <div className="row">
                       <p className="lead">About the host</p>
-                      <div className="text-left m-1 row align-items-flex-start">
-                        <span className="col-1 me-3">
+                      <div className="row justify-content-center align-items-center">
+                        <span className="col-1">
                           <em>
                             <i className="bi bi-quote quote"></i>
                           </em>
                         </span>
-                        <div className="desc-text col-9">
+                        <div className="col-11">
                           Lorem ipsum, dolor sit amet consectetur adipisicing
                           elit. Accusamus cum expedita ut ratione omnis fugit?
                           Maxime minus

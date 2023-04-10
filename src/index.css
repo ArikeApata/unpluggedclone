@@ -77,16 +77,16 @@
   margin-bottom: 10px;
 }
 
-/* .vv input {
-  width: 49%;
-  margin-right: 2%;
-} */
+.personalInfo{
+  border: 0;
+  outline: 0;
+}
 
 .image-caption {
   position: absolute;
-  /* top: 50%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%); 
 }
 
 .image img {
@@ -106,7 +106,7 @@
 
 .quote {
   /* font-family: 'Sacramento', cursive; */
-  
+  font-size: 50px;
   font-style: italic;
 }
 
@@ -143,9 +143,7 @@
   font-size: 50px;
 }
 
-.desc-text {
-  font-size: 13px;
-}
+
 
 /* profile page */
 
@@ -178,7 +176,30 @@
 .create-sidebar {
   max-width: 300px;
 }
+.tickets{
+  border: 0.5px solid rgb(248, 59, 179);
+  border-radius: 10px;
+}
 
+.pfp{
+  width: 100px;
+  object-fit: contain;
+}
+.ticket-btn{
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+.tickets img{
+  width: 100px;
+}
+
+.advideo{
+  bottom: 2px solid black;
+  border-radius: 10px;
+}
+.create-logo{
+  width: 130px;
+}
 .create-btn {
   min-width: fit-content;
 }
